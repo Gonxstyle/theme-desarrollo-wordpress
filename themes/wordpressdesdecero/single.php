@@ -6,9 +6,9 @@
         if (have_posts()) {
             while (have_posts()) {
                 the_post(); ?>
-                <div class="col-md-3">
-                    <h2><span><?php the_title() ?></span></h2>
-                    <div><a href="<?php the_permalink() ?>"></a><?php the_excerpt() ?></div>
+                <div class="col-md">
+                    <h2><?php the_title() ?></h2>
+                    <p><?php the_content() ?></p>
 
                 </div>
         <?php
