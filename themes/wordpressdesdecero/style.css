@@ -9,6 +9,10 @@ Tags: Theme Otaku.
 
 body {
   padding-top: 3.5rem;
+  background-color: black;
+}
+.list-posts .img{
+width: 100%;
 }
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -23,6 +27,8 @@ body {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+
+
 }
 
 /* Blur + Gray Scale */

@@ -45,23 +45,12 @@
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
-                 <form action='<?php bloginfo('url') ?>' method='get' class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Buscar" name='s' value='<?php the_search_query() ?>'>
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
-               
-                
-               
             </div>
         </nav>
 
         <main role="main">
-
-            <!-- Main jumbotron for a primary marketing message or call to action -->
-            <div class="jumbotron">
-                <div class="container">
-                    <h1 class="display-3"><?php bloginfo('name') ?></h1>
-                    <h2><?php bloginfo('description') ?></h2>
-                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-                </div>
-            </div>
+            
