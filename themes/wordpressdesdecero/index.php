@@ -7,7 +7,8 @@
             while (have_posts()) {
                 the_post(); ?>
                 
-                <div class="col-md-4">
+                <div class="col-lg-4 md-4 sm-6 pt-4">
+                    
                     <figure class='list-posts'>
                         <?php if ( has_post_thumbnail() ) : ?>
                         
@@ -17,9 +18,13 @@
                         </a>
                         <?php endif; ?>
                     </figure>
-                    <h2> <a href="<?php the_permalink() ?>"><?php the_title() ?></a></h2>
-                    <p><?php the_excerpt() ?> </p>
-                    <p><a class="btn btn-secondary" href="<?php the_permalink() ?>" role="button">Ver detalles &raquo;</a></p>
+                   
+                        <h2> <a href="<?php the_permalink() ?>"><?php the_title() ?></a></h2>
+                        <p><?php the_excerpt() ?> </p>
+                        <p><a class="btn btn-secondary" href="<?php the_permalink() ?>" role="button">Ver detalles &raquo;</a>
+                        </p>
+                    
+                    
                 </div>
         <?php
             }

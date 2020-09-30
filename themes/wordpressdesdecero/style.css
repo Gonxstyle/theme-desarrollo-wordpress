@@ -6,13 +6,18 @@ Version: 0.0.1.
 Tags: Theme Otaku.
 */
 
-
+h1 #name{
+  border-color: #3B2E16;
+}
+h3 #description{
+  background-color: #3B2E16;
+  border-color: orange;
+}
 body {
-  padding-top: 3.5rem;
-  background-color: black;
+  padding-top: 8rem;
 }
 .list-posts .img{
-width: 100%;
+width: 1000px;
 }
 .bd-placeholder-img {
   font-size: 1.125rem;

@@ -1,12 +1,27 @@
-<footer class="container">
-    <p>&copy; Company 2017-2020</p>
+<div class="container">
+<div class="row">
+<div class="col"><?php dynamic_sidebar('lateral derecho') ?></div> 
+</div></div>
+
+<div class="container-fluid">
+
+<div class="row bg-dark text-warning pt-2">
+<div class="container"><div class="col text-center"><?php dynamic_sidebar('widget-footer-2') ?></div></div>
+</div>
+
+</div>
+
+
+<footer class="bg-dark">
+    <div class='container-fluid pl-2 pt-2 text-light'>
+    <span class="text-center"><p>&copy; Company 2017-2020</p></span>
+    <div><p class='d-inline'><?php mostrar_menu_footer() ?></p>
+    <div class='mb-4'><?php wp_footer() ?></div>
+    </div></div>
+    
 </footer>
-<?php wp_footer() ?>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script>
-    window.jQuery || document.write('<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')
-</script>
-<script src="/docs/4.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
